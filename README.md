@@ -1,7 +1,7 @@
 ## 200118_TODOLIST_JS
 
 # Todo.js
-let todos = [];
+let todos = [];<br />
 todolist에 담길 배열을 선언한다.
 
 deleteTodo(event)
