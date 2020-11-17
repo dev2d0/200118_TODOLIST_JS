@@ -6,7 +6,6 @@ const NAME_LS = "name";
 
 function doGreeting(text) {
     greetingTitle.innerText = `Hello, ${text}`;
-
     greetingInput.classList.add("hide");
     greetingTitle.classList.remove("hide");
 }
@@ -26,7 +25,6 @@ function handleSubmit(event) {
 
 function loadName() {
     const loadedName = localStorage.getItem(NAME_LS);
-
     if (loadedName !== null) doGreeting(loadedName);
 }
 
